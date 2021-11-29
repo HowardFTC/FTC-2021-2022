@@ -32,7 +32,7 @@ public class Chassis extends LinearOpMode {
         telemetry.addData("Status", "Initialized");
         telemetry.update();
 
-        waitForStart();
+//         waitForStart();
 
         // runs until driver hits stop
         while (opModeIsActive()) {
